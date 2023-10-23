@@ -136,17 +136,8 @@
     <Filter Include="Resource Files\engine\font\min">
       <UniqueIdentifier>{1b103960-f11a-4515-b4f1-f59333ce00d9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game">
-      <UniqueIdentifier>{26946307-cad6-479b-8fec-5b237f313c65}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\Src">
-      <UniqueIdentifier>{f99d5178-1dd3-4484-8c2e-69ba370cb1da}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\Src\Application">
-      <UniqueIdentifier>{a5184b99-d6c7-4d9d-ae49-84f60bcf8e8a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\Src\Object">
-      <UniqueIdentifier>{632627ec-0b3e-4132-95d9-d4b2e88415bc}</UniqueIdentifier>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{1cdf4b25-6eee-407c-bb9a-8a7a087ba7ee}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -155,9 +146,6 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Game\Src\Application.cpp">
-      <Filter>Game\Src\Application</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -791,14 +779,20 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Src\Application.hpp">
-      <Filter>Game\Src\Application</Filter>
+    <ClInclude Include="Game\Header\Title.hpp">
+      <Filter>Header Files\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Src\Player.hpp">
-      <Filter>Game\Src\Object</Filter>
+    <ClInclude Include="Game\Header\Game.hpp">
+      <Filter>Header Files\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Src\Object.h">
-      <Filter>Game\Src\Object</Filter>
+    <ClInclude Include="Game\SpaceRescue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Header\Common.hpp">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Header\Button.hpp">
+      <Filter>Header Files\Scene</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

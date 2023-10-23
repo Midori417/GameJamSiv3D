@@ -115,7 +115,6 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Game\Src\Application.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -316,9 +315,11 @@
     <Xml Include="App\example\xml\test.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game\Src\Application.hpp" />
-    <ClInclude Include="Game\Src\Object.h" />
-    <ClInclude Include="Game\Src\Player.hpp" />
+    <ClInclude Include="Game\Header\Button.hpp" />
+    <ClInclude Include="Game\Header\Game.hpp" />
+    <ClInclude Include="Game\Header\Common.hpp" />
+    <ClInclude Include="Game\Header\Title.hpp" />
+    <ClInclude Include="Game\SpaceRescue.hpp" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
