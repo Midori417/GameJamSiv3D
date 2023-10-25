@@ -136,8 +136,17 @@
     <Filter Include="Resource Files\engine\font\min">
       <UniqueIdentifier>{1b103960-f11a-4515-b4f1-f59333ce00d9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Scene">
-      <UniqueIdentifier>{1cdf4b25-6eee-407c-bb9a-8a7a087ba7ee}</UniqueIdentifier>
+    <Filter Include="Game">
+      <UniqueIdentifier>{bf448183-9c3e-49c4-a72a-afa1a3529303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{f22204c2-15ea-42c3-b7b7-2f4b93c5bbdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{8e7addcd-c70b-4a46-8bb3-c2dc7609fdee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Other">
+      <UniqueIdentifier>{5cd57aa7-672a-44b7-a496-0d2d25d1971e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +155,9 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Source\Player.cpp">
+      <Filter>Game\Object</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -779,20 +791,26 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Header\Title.hpp">
-      <Filter>Header Files\Scene</Filter>
-    </ClInclude>
     <ClInclude Include="Game\Header\Game.hpp">
-      <Filter>Header Files\Scene</Filter>
+      <Filter>Game\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="Game\SpaceRescue.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Game\Header\Title.hpp">
+      <Filter>Game\Scene</Filter>
     </ClInclude>
     <ClInclude Include="Game\Header\Common.hpp">
-      <Filter>Header Files\Scene</Filter>
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Header\Player.hpp">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Header\UIInfo.hpp">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SpaceRescue.hpp">
+      <Filter>Game</Filter>
     </ClInclude>
     <ClInclude Include="Game\Header\Button.hpp">
-      <Filter>Header Files\Scene</Filter>
+      <Filter>Game\Other</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

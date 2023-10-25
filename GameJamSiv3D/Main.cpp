@@ -1,7 +1,6 @@
 ﻿#include <Siv3D.hpp>
 #include "Game/SpaceRescue.hpp"
 
-
 void Main()
 {
 	Window::Resize(1000, 700);
@@ -16,6 +15,8 @@ void Main()
 	
 	// ゲームシーンを登録
 	manager.add<Game>(State::Game);
+
+	manager.init(State::Game);
 
 	while (System::Update())
 	{

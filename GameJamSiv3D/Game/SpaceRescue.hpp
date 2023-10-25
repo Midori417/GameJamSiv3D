@@ -1,5 +1,5 @@
-﻿#pragma once
-#include <Siv3D.hpp>
+﻿# pragma once
+# include <Siv3D.hpp>
 
 //////////////////////////
 //
@@ -9,7 +9,10 @@
 
 
 // タイトルシーン
-#include "Header/Title.hpp"
+# include "Header/Title.hpp"
 
 // ゲームシーン
-#include "Header/Game.hpp"
+# include "Header/Game.hpp"
+
+// ゲームカメラ
+# include "Header/Game.hpp"
