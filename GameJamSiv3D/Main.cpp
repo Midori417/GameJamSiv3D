@@ -1,30 +1,12 @@
 ﻿#include <Siv3D.hpp>
-#include "Game/SpaceRescue.hpp"
+#include "Game/SauceCode/Game.hpp"
 
 void Main()
 {
-	Window::Resize(1000, 700);
-	FontAsset::Register(U"TitleFont", 60, Typeface::Heavy);
+	Game game;
 
-
-	// シーンマネージャーの作成
-	App manager;
-
-	// タイトルシーンを登録
-	manager.add<Title>(State::Title);
-	
-	// ゲームシーンを登録
-	manager.add<Game>(State::Game);
-
-	manager.init(State::Game);
-
-	while (System::Update())
-	{
-		if (not manager.update())
-		{
-			break;
-		}
-	}
+	// ゲームを実行
+	game.Run();
 }
 
 //

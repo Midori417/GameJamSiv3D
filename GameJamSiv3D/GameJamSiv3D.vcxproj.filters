@@ -139,14 +139,14 @@
     <Filter Include="Game">
       <UniqueIdentifier>{bf448183-9c3e-49c4-a72a-afa1a3529303}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\Scene">
-      <UniqueIdentifier>{f22204c2-15ea-42c3-b7b7-2f4b93c5bbdd}</UniqueIdentifier>
+    <Filter Include="Game\sub">
+      <UniqueIdentifier>{65f790f5-ae00-4982-9b13-506748b5b103}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Object">
-      <UniqueIdentifier>{8e7addcd-c70b-4a46-8bb3-c2dc7609fdee}</UniqueIdentifier>
+      <UniqueIdentifier>{fc513140-1378-4240-9977-63faaa02de8f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\Other">
-      <UniqueIdentifier>{5cd57aa7-672a-44b7-a496-0d2d25d1971e}</UniqueIdentifier>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{07edf858-baf4-4b18-be16-3df23fe9681c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -156,7 +156,19 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Game\Source\Player.cpp">
+    <ClCompile Include="Game\SauceCode\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SauceCode\Scene\Title.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SauceCode\Scene\Play.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SauceCode\Scene\Result.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SauceCode\Object\Player.cpp">
       <Filter>Game\Object</Filter>
     </ClCompile>
   </ItemGroup>
@@ -747,6 +759,9 @@
     <None Include="App\engine\font\min\siv3d-min.woff">
       <Filter>Resource Files\engine\font\min</Filter>
     </None>
+    <None Include="Game\SauceCode\Game.hpp">
+      <Filter>Game</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Media Include="App\example\test.mp3">
@@ -791,26 +806,23 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Header\Game.hpp">
+    <ClInclude Include="Game\SauceCode\Scene\Title.hpp">
       <Filter>Game\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Header\Title.hpp">
+    <ClInclude Include="Game\SauceCode\Scene\Play.hpp">
       <Filter>Game\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Header\Common.hpp">
-      <Filter>Game\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="Game\Header\Player.hpp">
-      <Filter>Game\Object</Filter>
-    </ClInclude>
-    <ClInclude Include="Game\Header\UIInfo.hpp">
-      <Filter>Game\Object</Filter>
-    </ClInclude>
-    <ClInclude Include="Game\SpaceRescue.hpp">
+    <ClInclude Include="Game\SauceCode\Common.hpp">
       <Filter>Game</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Header\Button.hpp">
-      <Filter>Game\Other</Filter>
+    <ClInclude Include="Game\SauceCode\Scene\Result.hpp">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SauceCode\Object\Player.hpp">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SauceCode\Object\PersonHelp.hpp">
+      <Filter>Game\Object</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
