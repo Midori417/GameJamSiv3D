@@ -115,16 +115,15 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="App\Game\SauceCode\Game.cpp" />
-    <ClCompile Include="App\Game\SauceCode\GameObject.cpp" />
-    <ClCompile Include="App\Game\SauceCode\ObjectManager.cpp" />
-    <ClCompile Include="App\Game\SauceCode\Object\Meteo.cpp" />
-    <ClCompile Include="App\Game\SauceCode\Object\PersonHelp.cpp" />
-    <ClCompile Include="App\Game\SauceCode\Object\Player.cpp" />
-    <ClCompile Include="App\Game\SauceCode\Object\UI.cpp" />
-    <ClCompile Include="App\Game\SauceCode\Scene\Play.cpp" />
-    <ClCompile Include="App\Game\SauceCode\Scene\Result.cpp" />
-    <ClCompile Include="App\Game\SauceCode\Scene\Title.cpp" />
+    <ClCompile Include="App\MySouceCode\Application.cpp" />
+    <ClCompile Include="App\MySouceCode\Object\Meteo.cpp" />
+    <ClCompile Include="App\MySouceCode\Object\PersonHelp.cpp" />
+    <ClCompile Include="App\MySouceCode\Object\Player.cpp" />
+    <ClCompile Include="App\MySouceCode\Object\UI.cpp" />
+    <ClCompile Include="App\MySouceCode\Scene\Play.cpp" />
+    <ClCompile Include="App\MySouceCode\Scene\Result.cpp" />
+    <ClCompile Include="App\MySouceCode\Scene\Title.cpp" />
+    <ClCompile Include="App\MySouceCode\System\MySystem.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -325,20 +324,21 @@
     <Xml Include="App\example\xml\test.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App\Game\SauceCode\Common.hpp" />
-    <ClInclude Include="App\Game\SauceCode\Component.hpp" />
-    <ClInclude Include="App\Game\SauceCode\Game.hpp" />
-    <ClInclude Include="App\Game\SauceCode\GameObject.hpp" />
-    <ClInclude Include="App\Game\SauceCode\ObjectManager.hpp" />
-    <ClInclude Include="App\Game\SauceCode\Object\Meteo.hpp" />
-    <ClInclude Include="App\Game\SauceCode\Object\PersonHelp.hpp" />
-    <ClInclude Include="App\Game\SauceCode\Object\Player.hpp" />
-    <ClInclude Include="App\Game\SauceCode\Object\UI.hpp" />
-    <ClInclude Include="App\Game\SauceCode\Scene\Play.hpp" />
-    <ClInclude Include="App\Game\SauceCode\Scene\Result.hpp" />
-    <ClInclude Include="App\Game\SauceCode\Scene\Title.hpp" />
-    <ClInclude Include="App\Game\SauceCode\Sub\Button.hpp" />
-    <ClInclude Include="App\Game\SauceCode\Sub\Particle3D.hpp" />
+    <ClInclude Include="App\MySouceCode\Application.hpp" />
+    <ClInclude Include="App\MySouceCode\Object\Bullet.hpp" />
+    <ClInclude Include="App\MySouceCode\Object\Meteo.hpp" />
+    <ClInclude Include="App\MySouceCode\Object\PersonHelp.hpp" />
+    <ClInclude Include="App\MySouceCode\Object\Player.hpp" />
+    <ClInclude Include="App\MySouceCode\Object\UI.hpp" />
+    <ClInclude Include="App\MySouceCode\Scene\Common.hpp" />
+    <ClInclude Include="App\MySouceCode\Scene\Play.hpp" />
+    <ClInclude Include="App\MySouceCode\Scene\Result.hpp" />
+    <ClInclude Include="App\MySouceCode\Scene\Title.hpp" />
+    <ClInclude Include="App\MySouceCode\Sub\Button.hpp" />
+    <ClInclude Include="App\MySouceCode\Sub\Particle3D.hpp" />
+    <ClInclude Include="App\MySouceCode\System\GameObject.hpp" />
+    <ClInclude Include="App\MySouceCode\System\MyCommon.hpp" />
+    <ClInclude Include="App\MySouceCode\System\MySystem.hpp" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>

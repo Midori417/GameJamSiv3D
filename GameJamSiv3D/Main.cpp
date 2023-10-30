@@ -1,12 +1,12 @@
 ﻿#include <Siv3D.hpp>
-#include "App/Game/SauceCode/Game.hpp"
+#include "App/MySouceCode/Application.hpp"
 
 void Main()
 {
-	Game game;
+	Application app;
 
-	// ゲームを実行
-	game.Run();
+	// アプリを実行
+	app.Run();
 }
 
 //

@@ -136,14 +136,23 @@
     <Filter Include="Resource Files\engine\font\min">
       <UniqueIdentifier>{1b103960-f11a-4515-b4f1-f59333ce00d9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game">
-      <UniqueIdentifier>{7f3ea097-dd49-4c2d-b953-557c555300b2}</UniqueIdentifier>
+    <Filter Include="MySouceCode">
+      <UniqueIdentifier>{a55ccc2f-cdeb-41fa-bd95-8bcd6e399345}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\Object">
-      <UniqueIdentifier>{57edb059-be29-4418-8715-761d00b4ab88}</UniqueIdentifier>
+    <Filter Include="MySouceCode\Sub">
+      <UniqueIdentifier>{08f17f5a-e00c-4746-bd58-95d8aba5777b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\Scene">
-      <UniqueIdentifier>{07120102-4559-40e7-9935-51dad0f2cd80}</UniqueIdentifier>
+    <Filter Include="MySouceCode\Main">
+      <UniqueIdentifier>{72518acd-f9b6-4530-8384-26b66051e9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySouceCode\Object">
+      <UniqueIdentifier>{63b9fafe-a0ac-4977-ab2f-07c880d3fcba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySouceCode\Scene">
+      <UniqueIdentifier>{1e9b0fac-ba20-4298-9c92-7c3cb280cf53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySouceCode\System">
+      <UniqueIdentifier>{effd2ba6-f341-427f-a409-64784ee3536d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -153,35 +162,32 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="App\Game\SauceCode\Game.cpp">
-      <Filter>Game</Filter>
+    <ClCompile Include="App\MySouceCode\Object\Meteo.cpp">
+      <Filter>MySouceCode\Object</Filter>
     </ClCompile>
-    <ClCompile Include="App\Game\SauceCode\Scene\Play.cpp">
-      <Filter>Game\Scene</Filter>
+    <ClCompile Include="App\MySouceCode\Object\PersonHelp.cpp">
+      <Filter>MySouceCode\Object</Filter>
     </ClCompile>
-    <ClCompile Include="App\Game\SauceCode\Scene\Result.cpp">
-      <Filter>Game\Scene</Filter>
+    <ClCompile Include="App\MySouceCode\Scene\Play.cpp">
+      <Filter>MySouceCode\Scene</Filter>
     </ClCompile>
-    <ClCompile Include="App\Game\SauceCode\Scene\Title.cpp">
-      <Filter>Game\Scene</Filter>
+    <ClCompile Include="App\MySouceCode\Application.cpp">
+      <Filter>MySouceCode\Main</Filter>
     </ClCompile>
-    <ClCompile Include="App\Game\SauceCode\Object\Meteo.cpp">
-      <Filter>Game\Object</Filter>
+    <ClCompile Include="App\MySouceCode\Object\Player.cpp">
+      <Filter>MySouceCode\Object</Filter>
     </ClCompile>
-    <ClCompile Include="App\Game\SauceCode\Object\PersonHelp.cpp">
-      <Filter>Game\Object</Filter>
+    <ClCompile Include="App\MySouceCode\Scene\Result.cpp">
+      <Filter>MySouceCode\Scene</Filter>
     </ClCompile>
-    <ClCompile Include="App\Game\SauceCode\Object\Player.cpp">
-      <Filter>Game\Object</Filter>
+    <ClCompile Include="App\MySouceCode\Scene\Title.cpp">
+      <Filter>MySouceCode\Scene</Filter>
     </ClCompile>
-    <ClCompile Include="App\Game\SauceCode\Object\UI.cpp">
-      <Filter>Game\Object</Filter>
+    <ClCompile Include="App\MySouceCode\Object\UI.cpp">
+      <Filter>MySouceCode\Object</Filter>
     </ClCompile>
-    <ClCompile Include="App\Game\SauceCode\GameObject.cpp">
-      <Filter>Game</Filter>
-    </ClCompile>
-    <ClCompile Include="App\Game\SauceCode\ObjectManager.cpp">
-      <Filter>Game</Filter>
+    <ClCompile Include="App\MySouceCode\System\MySystem.cpp">
+      <Filter>MySouceCode\System</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -815,47 +821,50 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Common.hpp">
-      <Filter>Game</Filter>
+    <ClInclude Include="App\MySouceCode\Sub\Button.hpp">
+      <Filter>MySouceCode\Sub</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Game.hpp">
-      <Filter>Game</Filter>
+    <ClInclude Include="App\MySouceCode\Scene\Common.hpp">
+      <Filter>MySouceCode\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Scene\Play.hpp">
-      <Filter>Game\Scene</Filter>
+    <ClInclude Include="App\MySouceCode\Object\Meteo.hpp">
+      <Filter>MySouceCode\Object</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Scene\Result.hpp">
-      <Filter>Game\Scene</Filter>
+    <ClInclude Include="App\MySouceCode\Sub\Particle3D.hpp">
+      <Filter>MySouceCode\Object</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Scene\Title.hpp">
-      <Filter>Game\Scene</Filter>
+    <ClInclude Include="App\MySouceCode\Object\PersonHelp.hpp">
+      <Filter>MySouceCode\Object</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Object\Meteo.hpp">
-      <Filter>Game\Object</Filter>
+    <ClInclude Include="App\MySouceCode\Scene\Play.hpp">
+      <Filter>MySouceCode\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Sub\Particle3D.hpp">
-      <Filter>Game\Object</Filter>
+    <ClInclude Include="App\MySouceCode\Application.hpp">
+      <Filter>MySouceCode\Main</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Object\PersonHelp.hpp">
-      <Filter>Game\Object</Filter>
+    <ClInclude Include="App\MySouceCode\Object\Player.hpp">
+      <Filter>MySouceCode\Object</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Object\Player.hpp">
-      <Filter>Game\Object</Filter>
+    <ClInclude Include="App\MySouceCode\Scene\Result.hpp">
+      <Filter>MySouceCode\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Object\UI.hpp">
-      <Filter>Game\Object</Filter>
+    <ClInclude Include="App\MySouceCode\Scene\Title.hpp">
+      <Filter>MySouceCode\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\GameObject.hpp">
-      <Filter>Game</Filter>
+    <ClInclude Include="App\MySouceCode\Object\UI.hpp">
+      <Filter>MySouceCode\Object</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Component.hpp">
-      <Filter>Game</Filter>
+    <ClInclude Include="App\MySouceCode\System\MySystem.hpp">
+      <Filter>MySouceCode\System</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\ObjectManager.hpp">
-      <Filter>Game</Filter>
+    <ClInclude Include="App\MySouceCode\System\GameObject.hpp">
+      <Filter>MySouceCode\System</Filter>
     </ClInclude>
-    <ClInclude Include="App\Game\SauceCode\Sub\Button.hpp">
-      <Filter>Game</Filter>
+    <ClInclude Include="App\MySouceCode\System\MyCommon.hpp">
+      <Filter>MySouceCode\System</Filter>
+    </ClInclude>
+    <ClInclude Include="App\MySouceCode\Object\Bullet.hpp">
+      <Filter>MySouceCode\Object</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
