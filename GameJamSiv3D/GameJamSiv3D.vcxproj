@@ -115,15 +115,19 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="App\MySouceCode\Application.cpp" />
-    <ClCompile Include="App\MySouceCode\Object\Meteo.cpp" />
-    <ClCompile Include="App\MySouceCode\Object\PersonHelp.cpp" />
-    <ClCompile Include="App\MySouceCode\Object\Player.cpp" />
-    <ClCompile Include="App\MySouceCode\Object\UI.cpp" />
-    <ClCompile Include="App\MySouceCode\Scene\Play.cpp" />
-    <ClCompile Include="App\MySouceCode\Scene\Result.cpp" />
-    <ClCompile Include="App\MySouceCode\Scene\Title.cpp" />
-    <ClCompile Include="App\MySouceCode\System\MySystem.cpp" />
+    <ClCompile Include="App\My\Souce\GameComponent\Player.cpp" />
+    <ClCompile Include="App\My\Souce\GameComponent\UFO.cpp" />
+    <ClCompile Include="App\My\Souce\Scene\GameClear.cpp" />
+    <ClCompile Include="App\My\Souce\Scene\GameOver.cpp" />
+    <ClCompile Include="App\My\Souce\Scene\Play.cpp" />
+    <ClCompile Include="App\My\Souce\Scene\Title.cpp" />
+    <ClCompile Include="App\My\Souce\System\Collision.cpp" />
+    <ClCompile Include="App\My\Souce\System\DrawModel.cpp" />
+    <ClCompile Include="App\My\Souce\System\FontDraw.cpp" />
+    <ClCompile Include="App\My\Souce\System\GameObject.cpp" />
+    <ClCompile Include="App\My\Souce\System\MySystem.cpp" />
+    <ClCompile Include="App\My\Souce\System\SphereCollider.cpp" />
+    <ClCompile Include="App\My\Souce\System\TextureDraw.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -324,21 +328,35 @@
     <Xml Include="App\example\xml\test.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App\MySouceCode\Application.hpp" />
-    <ClInclude Include="App\MySouceCode\Object\Bullet.hpp" />
-    <ClInclude Include="App\MySouceCode\Object\Meteo.hpp" />
-    <ClInclude Include="App\MySouceCode\Object\PersonHelp.hpp" />
-    <ClInclude Include="App\MySouceCode\Object\Player.hpp" />
-    <ClInclude Include="App\MySouceCode\Object\UI.hpp" />
-    <ClInclude Include="App\MySouceCode\Scene\Common.hpp" />
-    <ClInclude Include="App\MySouceCode\Scene\Play.hpp" />
-    <ClInclude Include="App\MySouceCode\Scene\Result.hpp" />
-    <ClInclude Include="App\MySouceCode\Scene\Title.hpp" />
-    <ClInclude Include="App\MySouceCode\Sub\Button.hpp" />
-    <ClInclude Include="App\MySouceCode\Sub\Particle3D.hpp" />
-    <ClInclude Include="App\MySouceCode\System\GameObject.hpp" />
-    <ClInclude Include="App\MySouceCode\System\MyCommon.hpp" />
-    <ClInclude Include="App\MySouceCode\System\MySystem.hpp" />
+    <ClInclude Include="App\My\Souce\Effect\EffectExposion.hpp" />
+    <ClInclude Include="App\My\Souce\Effect\EffectJet.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\Bullet.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\Meteo.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\UIMiniMap.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\PersonHelp.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\Player.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\SkySphere.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\UIStartButton.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\UFO.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\UIBoostGage.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\UILife.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\UIPersonNum.hpp" />
+    <ClInclude Include="App\My\Souce\GameComponent\UITime.hpp" />
+    <ClInclude Include="App\My\Souce\Scene\GameClear.hpp" />
+    <ClInclude Include="App\My\Souce\Scene\GameOver.hpp" />
+    <ClInclude Include="App\My\Souce\Scene\Play.hpp" />
+    <ClInclude Include="App\My\Souce\Scene\SceneCommon.hpp" />
+    <ClInclude Include="App\My\Souce\Scene\Title.hpp" />
+    <ClInclude Include="App\My\Souce\System\Collider.hpp" />
+    <ClInclude Include="App\My\Souce\System\Collision.hpp" />
+    <ClInclude Include="App\My\Souce\System\Component.hpp" />
+    <ClInclude Include="App\My\Souce\System\DrawModel.hpp" />
+    <ClInclude Include="App\My\Souce\System\FontDraw.hpp" />
+    <ClInclude Include="App\My\Souce\System\GameObject.hpp" />
+    <ClInclude Include="App\My\Souce\System\MySystem.hpp" />
+    <ClInclude Include="App\My\Souce\System\SphereCollider.hpp" />
+    <ClInclude Include="App\My\Souce\System\SystemComponent.hpp" />
+    <ClInclude Include="App\My\Souce\System\TextureDraw.hpp" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
